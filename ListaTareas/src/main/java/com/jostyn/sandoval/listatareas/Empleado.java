@@ -28,7 +28,10 @@ public class Empleado {
         this.ListaTareas = new Lista(); 
     }
     
-  
+   // no uses chat eso est mal y date de baja att: Deysi Chicaiza del A405  
+    
+    
+    /*
     public boolean agregarTarea(Tarea tarea) {
        
         return this.ListaTareas.agregarTarea(tarea);
@@ -38,7 +41,7 @@ public class Empleado {
     public int calcularHorasDelTotal() {
         return this.ListaTareas.calcularHorasAsignadas();
     }
-
+*/
     public String getCodigo() {
         return codigo;
     }

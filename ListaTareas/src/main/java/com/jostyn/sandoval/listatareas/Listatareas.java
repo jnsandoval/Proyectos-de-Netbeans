@@ -12,7 +12,8 @@ import java.time.LocalDate;
  */
 
 public class Listatareas {
-
+//Date de baja 
+    /*
     private Lista<Tarea> tareas;
     private static final int LIMITE_HORAS = 40;
     private Iterable<Tarea> Tareas;
@@ -42,6 +43,6 @@ public class Listatareas {
     public void setTareas(List<Tarea> tareas) {
         this.tareas = tareas;
     }
- 
+ */
 }                                                                                                                                                                                   
     
