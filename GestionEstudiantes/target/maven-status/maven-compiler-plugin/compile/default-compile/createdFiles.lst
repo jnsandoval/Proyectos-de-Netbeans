@@ -1,0 +1,10 @@
+com\mycompany\gestionestudiantes\modelo\Estudiante.class
+com\mycompany\gestionestudiantes\vista\VistaEstudiante$1.class
+com\mycompany\gestionestudiantes\vista\VistaEstudiante$4.class
+com\mycompany\gestionestudiantes\vista\VistaEstudiante$3.class
+com\mycompany\gestionestudiantes\controlador\EstudianteControlador.class
+com\mycompany\gestionestudiantes\vista\VistaEstudiante$2.class
+com\mycompany\gestionestudiantes\GestionEstudiantes.class
+com\mycompany\gestionestudiantes\vista\VistaEstudiante$5.class
+com\mycompany\gestionestudiantes\basedatos\ConexionMongoDB.class
+com\mycompany\gestionestudiantes\vista\VistaEstudiante.class
