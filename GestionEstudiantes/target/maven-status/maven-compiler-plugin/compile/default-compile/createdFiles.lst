@@ -2,6 +2,7 @@ com\mycompany\gestionestudiantes\modelo\Estudiante.class
 com\mycompany\gestionestudiantes\vista\VistaEstudiante$1.class
 com\mycompany\gestionestudiantes\vista\VistaEstudiante$4.class
 com\mycompany\gestionestudiantes\vista\VistaEstudiante$3.class
+com\mycompany\gestionestudiantes\vista\VistaEstudiante$6.class
 com\mycompany\gestionestudiantes\controlador\EstudianteControlador.class
 com\mycompany\gestionestudiantes\vista\VistaEstudiante$2.class
 com\mycompany\gestionestudiantes\GestionEstudiantes.class
