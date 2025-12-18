@@ -8,4 +8,5 @@ com\mycompany\gestionestudiantes\vista\VistaEstudiante$2.class
 com\mycompany\gestionestudiantes\GestionEstudiantes.class
 com\mycompany\gestionestudiantes\vista\VistaEstudiante$5.class
 com\mycompany\gestionestudiantes\basedatos\ConexionMongoDB.class
+com\mycompany\gestionestudiantes\vista\VistaEstudiante$7.class
 com\mycompany\gestionestudiantes\vista\VistaEstudiante.class
