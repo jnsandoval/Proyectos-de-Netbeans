@@ -13,7 +13,21 @@ public class PrincipioID {
 
     public static void main(String[] args) {
         
-        GeneradorReportesPDF reportePdf = new GeneradorReportesPDF();
-        GeneradorReportesWord reportesWord = new GeneradorReportesWord();
+        GeneradorReportes reporteWord = new GeneradorReportesWord();
+        GeneradorReportes reportePDF = new GeneradorReportesPDF();
+        GeneradorReportes reporteExcel = new GeneradorReportesExcel();
+
+        
+        
+        
+        GeneradorDeReportes reportes = new GeneradorDeReportes(reporteWord);
+        reportes.generarReporte();
+        
+        
+        GeneradorDeReportes reportes1 = new GeneradorDeReportes(reportePDF);
+        reportes1.generarReporte();
+                
+        GeneradorDeReportes reportes2 = new GeneradorDeReportes(reporteExcel);
+        reportes2.generarReporte();
     }
 }

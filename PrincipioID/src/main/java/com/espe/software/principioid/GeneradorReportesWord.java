@@ -12,7 +12,9 @@ public class GeneradorReportesWord implements GeneradorReportes {
 
     @Override
     public void GenerarReporte(String nombreReporte) {
-        //Codigo para generar reporte en word
+        
+        System.out.println("Reporte en Word");
+        
     }
     
 }

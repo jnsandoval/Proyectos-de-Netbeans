@@ -8,11 +8,11 @@ package com.espe.software.principioid;
  *
  * @author labesp
  */
-public class GeneradorReportesPDF implements GeneradorReportes{
-    
+public class GeneradorReportesExcel implements GeneradorReportes{
+
     @Override
     public void GenerarReporte(String nombreReporte) {
-        //Codigo para generar reporte en PDF
-        System.out.println("Reporte en PDF");
+        System.out.println("Reporte en Excel");
     }
+    
 }
