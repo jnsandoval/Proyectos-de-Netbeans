@@ -24,7 +24,11 @@ public class PagoTarjetaCredito implements MetodoPago{
 
     @Override
     public void pagar(double monto) {
-        System.out.println("Pagando $" + monto + "con Tarjeta de Credito de  "+ nombreCliente);
+        
+        System.out.println("Se uso Tarjeta de Credito con un monto de " + monto + " $");
+        
+        System.out.println("El titular es: " + nombreCliente);
+    
     }
     
 }

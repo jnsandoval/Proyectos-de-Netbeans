@@ -19,17 +19,49 @@ public class Strategy {
         
         System.out.println("Monto a pagar: ");
         double monto = leer.nextDouble();
+        leer.nextLine();
         
         System.out.println("Como desea pagar?");
-        System.out.println("1. Tarjeta   -   2.Paypal");
+        System.out.println("1. Tarjeta   -   2.Paypal   -   3.Transferencia");
         int opcion =leer.nextInt();
+        leer.nextLine();
         
         if (opcion ==1){
-            miCompra.setMetodoPago(new PagoTarjetaCredito("Jostyn","1234","123","10/26"));
+            
+            System.out.println("-Datos de Tarjeta de Credito-");
+            System.out.println("Nombre del titular: ");
+            String nombre = leer.nextLine();
+            System.out.println("Numero de tarjeta: ");
+            String numero = leer.nextLine();
+            System.out.println("CVV: ");
+            String cvv = leer.nextLine();
+            System.out.println("Fecha de expiracion: ");
+            String fecha = leer.nextLine();
+            
+            miCompra.setMetodoPago(new PagoTarjetaCredito(nombre, numero, cvv, fecha));
         }
         else if (opcion == 2){
-            miCompra.setMetodoPago(new PagoPaypal("jnsandoval@espe.edu.ec", "1234"));
+            System.out.println("-Datos de PayPal-");
+            System.out.println("Email: ");
+            String email = leer.nextLine();
+            System.out.println("Contraseña: ");
+            String password = leer.nextLine();
+            
+            miCompra.setMetodoPago(new PagoPaypal(email, password));
+        } 
+        else if (opcion ==3){
+            System.out.println("-Datos de Transferencia-");
+            System.out.println("Nombre del beneficiario: ");
+            String nombre = leer.nextLine();
+            System.out.println("Nombre del Banco: ");
+            String banco = leer.nextLine();
+            System.out.println("Numero de comprobante: ");
+            String comprobante = leer.nextLine();
+            
+            miCompra.setMetodoPago(new PagoTransferencia(nombre, banco, comprobante));
         }
         
+        miCompra.realizarPago(monto);
+    
     }
 }

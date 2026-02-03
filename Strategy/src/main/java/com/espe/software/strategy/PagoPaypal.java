@@ -20,7 +20,11 @@ public class PagoPaypal implements MetodoPago{
     
     @Override
     public void pagar(double monto) {
-        System.out.println("Pagando $" + monto + "uso Paypal y su usario es: "+ email);
+       
+        System.out.println("Se uso Paypal con un monto de " + monto + " $");
+       
+        System.out.println("Su email es: " + email);
+   
     }
     
 }
