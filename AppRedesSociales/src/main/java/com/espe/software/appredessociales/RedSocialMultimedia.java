@@ -10,4 +10,14 @@ package com.espe.software.appredessociales;
  */
 public class RedSocialMultimedia {
     
+    private RedSocial estrategia;
+    
+    public void setEstrategia (RedSocial estrategia){
+        this.estrategia = estrategia;
+    }
+    
+    public void ejecutarConexion(){
+        estrategia.conectar();
+    }
+    
 }

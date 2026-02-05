@@ -11,15 +11,6 @@ import java.util.Scanner;
  * @author labesp
  */
 public class AppRedesSociales {
-    private RedSocial estrategia;
-    
-    public void setEstrategia (RedSocial estrategia){
-        this.estrategia = estrategia;
-    }
-    
-    public void ejecutarConexion(){
-        estrategia.conectar();
-    }
     
     public static void main(String[] args) {
         AppRedesSociales miApp = new AppRedesSociales();
